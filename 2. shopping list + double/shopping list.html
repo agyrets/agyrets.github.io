@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping list</title>
+</head>
+<body>
+    <span><h1>Shopping list</h1></span>
+    <div>
+        <ul>
+            <li><h3>Food</h3></li>
+        </ul>
+        <ul>
+            <ol>Bread</ol>
+            <ol>milk</ol>
+            <ol>sugar</ol>
+            <ol>cereals</ol>
+            <ol>jam</ol>
+            
+            
+        </ul>
+        <ul>
+            <li><h3>Household stuff</h3></li>
+        </ul>
+        <ul>
+            <ol>window cleaner</ol>
+            <ol>washing powder</ol>
+            <ol>soap</ol>
+            <ol>water filter</ol>
+            <ol>antiperspirant</ol>
+        </ul>
+    </div>
+
+    <div>
+            <fieldset>
+                    <legend>Check list</legend>
+                    <label for="category">Purchase category </label> <br>
+                    <select name="list" id="category">
+                        <option value="Food">Food</option>
+                        <option hidden disabled selected>Choose one</option>
+                    </select>
+                    <br>
+                    <fieldset>
+                        <legend>Bought already</legend>
+                        <input type="checkbox" name="bought"  value="&lt;+">
+                        <label for="bread">bread</label>
+                        <br>
+                        <input type="checkbox" name="bought"  value="+">
+                        <label for="milk">milk</label>
+                        <br>
+                        <input type="checkbox" name="bought"  value="+">
+                        <label for="sugar">sugar</label>
+                        <br>
+                        <input type="checkbox" name="bought"  value="&gt;+">
+                        <label for="cereals">cereals</label>
+                        <br>
+                        <input type="checkbox" name="bought"  value="&gt;+">
+                        <label for="jam">jam</label>
+                    </fieldset>
+
+                    <fieldset>
+                            <legend>Check list</legend>
+                            <label for="category">Purchase category </label> <br>
+                            <select name="list" id="category">
+                                <option value="Household_stuff">Household stuff</option>
+                                <option hidden disabled selected>Choose one</option>
+                            </select>
+                            <br>
+                            <fieldset>
+                                <legend>Bought already</legend>
+                                <input type="checkbox" name="bought"  value="&lt;+">
+                                <label for="window_cleaner">window cleaner</label>
+                                <br>
+                                <input type="checkbox" name="bought"  value="+">
+                                <label for="wasjing_powder">washing powder</label>
+                                <br>
+                                <input type="checkbox" name="bought"  value="+">
+                                <label for="soap">soap</label>
+                                <br>
+                                <input type="checkbox" name="bought"  value="&gt;+">
+                                <label for="water_filter">water filter</label>
+                                <br>
+                                <input type="checkbox" name="bought"  value="&gt;+">
+                                <label for="antiperspirant">antiperspirant</label>
+                            </fieldset>
+                
+    </div>
+</body>
+</html>
