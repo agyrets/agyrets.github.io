@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,10 @@
     <title>Homeworks</title>
 </head>
 <body>
-    <p><a href="agyrets.github.io/1. cv-kovalenko-oleksandr-eng/cv-kovalenko-oleksandr.html">1. Home work</a> CV eng</p>
-    <p><a href="agyrets.github.io/1. cv-kovalenko oleksandr-rus/cv-kovalenko-rus.html">1. Home work</a> CV ru</p>
-    <p><a href="agyrets.github.io/2. shopping-list/shopping list.html">2. Home work</a> Shopping List</p>
-    <p><a href="agyrets.github.io/2 double-page-archor/index.html">2. Home work</a> Duble Archor page</p></p>
+    <p><a href="agyrets.github.io/1.cv-kovalenko-oleksandr-eng/cv-kovalenko-oleksandr.html">1. Home work</a> CV eng</p>
+    <p><a href="agyrets.github.io/1.cv-kovalenko-oleksandr-eng/cv-kovalenko-oleksandr.html">1. Home work</a> CV ru</p>
+    <p><a href="agyrets.github.io/2.shopping-list/shopping-list.html">2. Home work</a> Shopping List</p>
+    <p><a href="agyrets.github.io/2.double-page-archor/main_text.html">2. Home work</a> Duble Archor page</p>
 </body>
 </html>
+
