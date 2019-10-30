@@ -1,0 +1,185 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+body {
+    background-color: #3b3f45;
+    border: 10px solid white;
+    min-height:100vh;
+    
+
+}
+
+header {
+    background-color: #4a4f56;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.content   {
+    
+    padding-top: 27px;
+    padding-bottom: 23px;
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: #eb7e7f;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    color: #eb7e7f;
+    font-size: 20px;
+    
+}
+
+
+
+.list   {
+    margin: 50px;
+
+    
+}
+
+ul {
+   margin: 0px auto; 
+   
+    width: 625px;
+    height: auto;
+    padding-left: 10px ;
+    box-sizing: border-box;
+    
+
+}
+li {
+    list-style-type: none; 
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+   }
+
+.hooks {
+    font-size: 15px;
+}
+
+.hooks {
+    font-size: 15px;
+}
+.hooks:before {
+    content: "(";
+}
+.hooks:after {
+    content: ")";
+}
+
+input {
+    
+    width: 25px;
+    height: 25px;
+}
+
+input:checked + span{
+    text-decoration: line-through;
+}
+
+li {
+    background-color: #88839E;
+    padding-left: 10px ;
+    padding-right: 10px;
+}
+
+li:nth-child(2n){
+    background-color: #7A7593;
+}
+
+li:hover {
+    background-color: #625E77;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    transition: all .1s ease-in;
+}
+
+
+
+.button-wraper {
+    text-align: center;
+    text-align: top;
+    background-color: #4A4F56;
+    width: 620px;
+    margin: 18px  auto 0 auto;
+    box-sizing: border-box; 
+    
+    padding: 10px 0px 10px 10px;
+
+}
+
+button {
+    background-color: #4A4F56;
+    border: none;
+    text-align: center;
+    font-size: 25px;
+    color: #EB7669;
+    
+    
+}
