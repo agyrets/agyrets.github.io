@@ -12,6 +12,10 @@
     <p><a href="agyrets.github.io/2.shopping-list/shopping-list.html">2. Home work</a> Shopping List</p>
     <p><a href="agyrets.github.io/2.double-page-archor/main_text.html">2. Home work</a> Duble Archor page</p>
     <p><a href="agyrets.github.io/4.simple-task/index.html">4. Home work</a> Simple task</p>
+    <p><a href="agyrets.github.io/5.photoshop/index.html">5. Home work</a> Photoshop</p>
+    <p><a href="agyrets.github.io/6. shopping-list-css/index.html">6. Home work</a> Shopping list CSS</p>
+    
+    
 </body>
 </html>
 
