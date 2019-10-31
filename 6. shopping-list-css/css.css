@@ -103,11 +103,12 @@ p {
 
 ul {
    margin: 0px auto; 
-   
+    
     width: 625px;
     height: auto;
     padding-left: 10px ;
     box-sizing: border-box;
+    padding-left: 0;
     
 
 }
