@@ -58,6 +58,7 @@ h1, h2 {
 body {
     background-color: #3b3f45;
     border: 10px solid white;
+    box-sizing: border-box;
     min-height:100vh;
     
 
@@ -166,12 +167,11 @@ li:hover {
     text-align: center;
     text-align: top;
     background-color: #4A4F56;
-    width: 620px;
+    width: 625px;
     margin: 18px  auto 0 auto;
     box-sizing: border-box; 
+    padding: 10px 0px 10px 0px;
     
-    padding: 10px 0px 10px 10px;
-
 }
 
 button {
