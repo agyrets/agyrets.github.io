@@ -14,7 +14,7 @@
     <p><a href="agyrets.github.io/4.simple-task/index.html">4. Home work</a> Simple task</p>
     <p><a href="agyrets.github.io/5.photoshop/index.html">5. Home work</a> Photoshop</p>
     <p><a href="agyrets.github.io/6. shopping-list-css/index.html">6. Home work</a> Shopping list CSS</p>
-    <p><a href="">7-1. Home work</a> PSD file</p>
+    <p><a href="agyrets.github.io/7.css-box-model/index.html">7-1. Home work</a> PSD file</p>
     <p><a href="">7.2. Home work</a> Weather</p>
 
     
