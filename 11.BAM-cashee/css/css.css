@@ -4,18 +4,26 @@ body {
     width: 100%;
     height: 100%;
     
-
 }
 
 body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
     border: none;
-    color: #000000;
+    color: #262626;
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 17px;
+    font-weight: 300;
     font-style: normal;
-    font-weight: normal;
+    
     margin: 0;
     padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 input,
@@ -35,7 +43,7 @@ input::-moz-focus-inner {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     outline: none;
 }
 
@@ -46,7 +54,7 @@ a:hover {
 h1, h2 {
     font-size: 20px;
     padding: 0 0 10px 0;
-    color: #545454;
+    color: #262626;
 }
 
 .clear {
@@ -56,94 +64,167 @@ h1, h2 {
     height: 0;
 }
 
+
 .background1 {
-    background: url(/image/bg-content.jpg);
+    background: url(/image/bg-content.jpg) ;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
+    
+    
+   
 }
-.mainer{
+
+.mainer {
     margin: 0 auto;
     max-width: 1170px;
+    padding-top: 30px;
     padding-right: 10px;
     padding-left: 15px;
-}
 
-.header{
-    display: flex;
-    margin: 0 -15px;
-    padding: 60px 0 0 15px; 
-    align-items: center;
-}
-
-
-
-
-.header_col {
-    padding: 0 15px;
-    align-items: center;
-}
-
-.header_col--stretch{
-    flex-grow: 1;            
     
 }
-.logo__text{
+
+.header {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 240px;
+    
+}
+
+
+
+.logo_item {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
-}
-.navigation{
-    margin: 0 40px 0 0;
-    text-align:right;
-
-
-    
+    text-decoration: none;
 }
 
-.navigation__link{
-    margin: 0 35px 0 0;
+
+
+.nav__list {
+    display: flex;
+    text-align: right;
+}
+
+.nav__item{
+    padding-right: 35px;
+   
+}
+.nav__item:last-child{
+    padding: 0;
+}
+
+.nav__link {
+    display: inline-block;
     color: #262626;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    text-decoration: none;           /* убираем стандартное подчеркивание*/
-    display: inline-block;
-    padding:3px 0;                  /*  отсуп к подчеркиванию, в сумме 8рх         */
-    border-top: 3px solid transparent;   /* что бы не прыгал контент  */
-    
+    font-weight: bold;
+    border-top: 3px solid transparent;
+    padding-top: 6px;
 }
 
-.navigation__link:hover,
-.navigation__link--active {
-    opacity: 0.7;
-    border-top: 3px solid #ff6033;       /*не стандартное подчеркивание*/
+.nav__link--active,
+.nav__link:hover,
+.nav__link:active
+ {
+    border-top: 3px solid #ff6033;
+    padding-top: 6px;
 }
 
-.section{
-    position: absolute;
-    top: 355px;
-
+.content1 {
     width: 370px;
-    height: 240px;
+        margin-bottom: 285px;
+}
+
+.content1__title1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 34px;
+}
+
+.content1__text1 {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    margin-bottom: 34px;
+}
+
+.content1__button{
+    display: block;
+    width: 200px;
+    height: 55px;
+    line-height: 56px;
+    background-color: #ff6033;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 5px 5px 7px -3px rgba(0, 0, 0, 0.7);
+    transition: all .3s;
+}
+
+.content1__button:hover {
+    box-shadow: none;
+    transform: scale(0.98);
+    box-shadow: inset 0px 0px 17px -4px rgba(0, 0, 0, 0.7);
+}
+
+.scroll {
+    position: fixed;
+    bottom: 0%;
+    left: calc(50% - 12px);
+
+   
+}
+
+
+
+.background1--footer {
+    background: url(../image/bg-footer.jpg);
+    background-repeat: no-repeat;
+    background-color: #00b0b0;
+}
+
+.mainer--footer {
+    
+    height: 670px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.footer {
+    width: 500px;
+    
+    
+    
     
 }
-.section__heading {
-    font-weight: 700;
-    font-size: 60px;
-    padding-top: 35px;
+
+.footer__title{
+    font-weight: bold;
+    font-size: 90px;
+    color: #fff;
+    margin-bottom: 10px;
+    
 
 }
-.section__button{
-    color: white;
+
+.footer__text {
+   
     font-size: 17px;
-    margin-top: 35px;
-    background-color: #ff6033;
-    border: none;
+    line-height: 27px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
-
-
-
-
 
