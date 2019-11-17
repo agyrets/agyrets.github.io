@@ -188,7 +188,7 @@ h1, h2 {
 
 
 .background1--footer {
-    background: url(../image/bg-footer.jpg);
+    background: url(/image/bg-footer.jpg);
     background-repeat: no-repeat;
     background-color: #00b0b0;
 }
