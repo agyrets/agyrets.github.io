@@ -8,7 +8,7 @@
 
 
         body {
-            background-color: rgba(88, 84, 84, 0.795);
+            background-color: #F1F6FB;
             
         }
         p {
