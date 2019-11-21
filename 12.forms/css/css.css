@@ -104,7 +104,10 @@ h1, h2 {
     margin: 0 0 15px 0;
     padding: 0;
     
+    
 }
+
+
 
 .form-name__input:focus{
     border-left: 5px solid #355b82;
@@ -121,15 +124,13 @@ h1, h2 {
     border: none;
     background-color: #77d9d8;
     opacity: 50%;
-   
+    
 }
-
-
-
 
 .form-name__input--message{
     min-height: 250px;
     
+
 }
 
 .contacts__data:first-child{
