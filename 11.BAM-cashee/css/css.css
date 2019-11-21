@@ -66,7 +66,7 @@ h1, h2 {
 
 
 .background1 {
-    background: url(/image/bgcontent.jpg) ;
+    background: url(../image/bgcontent.jpg) ;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
