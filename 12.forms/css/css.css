@@ -89,7 +89,6 @@ h1, h2 {
 
 .wrapper3 {
     display: flex;
-    
     justify-content: space-around;
     margin-top: 50px;
     padding-bottom: 120px;
@@ -99,15 +98,10 @@ h1, h2 {
     max-width: 500px;
 }
 
-
 .form__data {
     margin: 0 0 15px 0;
     padding: 0;
-    
-    
 }
-
-
 
 .form-name__input:focus{
     border-left: 5px solid #355b82;
@@ -124,13 +118,11 @@ h1, h2 {
     border: none;
     background-color: #77d9d8;
     opacity: 50%;
-    
 }
 
 .form-name__input--message{
     min-height: 250px;
-    
-
+    resize: none;
 }
 
 .contacts__data:first-child{
