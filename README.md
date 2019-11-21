@@ -5,6 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homeworks</title>
+    <style>
+        body {
+            background: #E9E9E9;
+            
+        }
+        p {
+            
+            font-size: 15px;
+            font-weight: 700;
+            margin: 15px 0px 15px 15px;
+        }
+        a{
+            font-size: 15px;
+            color: #3889E4;
+            text-decoration: none;
+            opacity: 0.8;
+            font-style: italic;
+        }
+        a:hover{
+            cursor: pointer;
+            color: #F9265F;
+            opacity: 1;
+        }
+
+
+    </style>
     
 </head>
 <body>
@@ -24,8 +50,6 @@
     
 </body>
 </html>
-
-
 
 
 
