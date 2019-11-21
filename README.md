@@ -6,9 +6,9 @@
     <title>Homeworks</title>
     <style>
 
-        
+
         body {
-            background: #E9E9E9;
+            background-color: rgba(88, 84, 84, 0.795);
             
         }
         p {
@@ -53,3 +53,4 @@
     
 </body>
 </html>
+
