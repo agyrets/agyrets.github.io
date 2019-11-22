@@ -1,15 +1,44 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homeworks</title>
+    <style>
+
+
+        body {
+            background-color: #F1F6FB;
+            
+        }
+        p {
+            
+            font-size: 15px;
+            font-weight: 700;
+            margin: 15px 0px 15px 15px;
+        }
+        a{
+            font-size: 15px;
+            color: #3889E4;
+            text-decoration: none;
+            opacity: 0.8;
+            font-style: italic;
+            padding-right: 30px;
+        }
+        a:hover{
+            cursor: pointer;
+            color: #F9265F;
+            opacity: 1;
+            text-decoration: none;
+        }
+
+
+    </style>
     
 </head>
 <body>
     <p><a href="agyrets.github.io/1.cv-kovalenko-oleksandr-eng/cv-kovalenko-oleksandr.html">1. Home work</a> CV eng</p>
-    <p><a href="agyrets.github.io/1.cv-kovalenko-oleksandr-eng/cv-kovalenko-oleksandr.html">1. Home work</a> CV ru</p>
+    <p><a href="agyrets.github.io/1.cv-kovalenko oleksandr-rus/cv-kovalenko-rus.html">1. Home work</a> CV ru</p>
     <p><a href="agyrets.github.io/2.shopping-list/shopping-list.html">2. Home work</a> Shopping List</p>
     <p><a href="agyrets.github.io/2.double-page-archor/main_text.html">2. Home work</a> Duble Archor page</p>
     <p><a href="agyrets.github.io/4.simple-task/index.html">4. Home work</a> Simple task</p>
@@ -24,13 +53,4 @@
     
 </body>
 </html>
-
-
-
-
-
-
-
-
-
 
