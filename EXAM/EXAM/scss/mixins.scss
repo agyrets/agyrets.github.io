@@ -1,0 +1,49 @@
+@import 'vars.scss';
+
+
+/*  @include button-form;   */
+
+
+@mixin button-form {
+    font-size: $font-size-14;
+    font-family: 'Aleo', serif;
+    width: 25%;
+    line-height: 58px;
+    font-family: $aleo-font;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    background: #5474fd;
+    background-size: cover;
+    transition: all .3s;
+    border: none; 
+    color: #ffffff;  
+    
+}
+
+/*rest buttons  */
+
+@mixin button {
+    font-size:$font-size-16;
+    font-family: $aleo-font;
+    display: block;
+    margin-top: 35px;
+    height: 60px;
+    width: 225px;
+    line-height: 60px;
+    text-align: center;
+    background: url(../image/buttonj.jpg);
+    background-size: cover;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+@mixin button-hover {
+    transform: scale(0.98);
+    box-shadow: inset 0px 0px 17px -4px rgba(0, 0, 0, 0.7);
+    
+}

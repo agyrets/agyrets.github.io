@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAGA,8BAA8B;AAoB9B,kBAAkB",
+    "sources": [
+        "../scss/mixins.scss",
+        "../scss/vars.scss"
+    ],
+    "names": [],
+    "file": "mixins.css"
+}
